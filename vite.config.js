@@ -4,8 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Hit rak khdam f repository smitou (username.github.io), 
-  // l-base khass ikoun '/' bach l-fichiers i-t-chargew s-hah.
   base: '/', 
   
   build: {
